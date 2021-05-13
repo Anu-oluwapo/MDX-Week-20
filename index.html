@@ -9,6 +9,14 @@
     <script src="https://cdn.jsdelivr.net/npm/vue@2.6.12/dist/vue.js"></script>
     <script src="https://kit.fontawesome.com/7080cd0a09.js" crossorigin="anonymous"></script>
     <script src="lessons.js"></script>
+    <link rel="manifest" href="app.webmanifest">
+    <link rel="apple-touch-icon" sizes="180x180" href="images/icn180.png">
+
+    <script>
+        if ('serviceWorker' in navigator) {
+            navigator.serviceWorker.register('service-worker.js');
+        };
+    </script>
 
 
     <style>
